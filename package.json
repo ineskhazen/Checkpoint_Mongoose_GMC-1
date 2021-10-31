@@ -1,0 +1,26 @@
+{
+  "name": "checkpoint_mongoose_gmc",
+  "version": "1.0.0",
+  "description": "part backend of the mern stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "mongoose",
+    "express"
+  ],
+  "author": "ines",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
